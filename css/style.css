@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-flex;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #4f3222;
+}
+
+body{
+    background-color:cornsilk;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.header{
+    align-items: center;
+
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.header .logo img{
+    height: 110px;
+    width: auto;
+    padding: 10px 50px 10px 20px;
+
+}
+
+.contenedorCard{
+    justify-content: space-evenly;
+    justify-items: center;
+    display: flex;
+
+}
+
+.fotowaffle{
+    height: 50px ;
+    width: 50px;
+}
+
+.fotofiesta{
+    height: 90px;
+    width: 100px;
+    
+}
+
+/*.card{
+
+}
+*/
+
+.text-contact{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    background-color: burlywood;
+
+}
+
+.selec-menu{
+    margin: auto;
+    padding: 10px 10px 10px 40px;
+}
+
+
+/*.opciones{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-inline-end: auto;
+}
+*/
+
+.pie-pagina{
+width: 100%;
+background-color: antiquewhite;
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr); /*permite que agregue 5 columna en todo el ancho*/
+    grid-gap: 1px;/**/
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 90px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo1 .box figure img{
+    width: 100px;
+    margin-left: 50px;
+}
+
+.terminos{
+    margin-left: 45px;
+}
+
+.rrss2{
+    margin-left: 20px;
+}
+
+.trabajaus{
+    margin-left: 20px;
+}
+
+.maps{
+    margin-right: 0;
+}
+
+.grupo2{
+    padding: 15px 10px;
+    text-align: center;
+}

@@ -71,6 +71,13 @@ li{
     margin-top: 50px;
 }
 
+#botonmenu2{
+    width: 30%;
+    background-color: #4f3222;
+    color: aliceblue;
+    margin-top: 15px;
+}
+
 .btnEnlace{
     text-decoration: none;
 }
@@ -79,6 +86,10 @@ li{
     margin-top: 55px;
     justify-content: center;
     align-items: center;
+}
+
+.contenedorCard{
+    margin-bottom: 50px;
 }
 
 .selec-menu{

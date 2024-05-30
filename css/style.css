@@ -16,14 +16,18 @@ body{
 
 h1{
     text-align: center;
+    padding: 30px 0px 30px 0px;
 }
 
 h2{
     text-align: center;
+    padding: 30px 0px 50px 0px;
 }
 
 h3{
     text-align: center;
+    padding: 30px 0px 50px 0px;
+
 }
 
 .header{
@@ -43,47 +47,27 @@ li{
 
 }
 
-.contenedorCard{
-    justify-content: space-evenly;
-    justify-items: center;
-    display: flex;
-
-}
-
-.fotowaffle{
-    height: 50px ;
-    width: 50px;
-}
-
-.fotofiesta{
-    height: 90px;
-    width: 100px;
+.historia{
     
 }
-
-/*.card{
-
-}
-*/
 
 .text-contact{
     text-align: center;
     margin-top: 25px;
 }
 
-.form-contacto{
-    display: flex;
+#botonmenu{
+    width: 30%;
+    background-color: #4f3222;
+    color: aliceblue;
+    margin-top: 50px;
+
+}
+
+.formulario{
+    margin-top: 55px;
     justify-content: center;
     align-items: center;
-}
-*/
-.form{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    
-    background-color: burlywood;
-
 }
 
 .selec-menu{
@@ -91,14 +75,20 @@ li{
     padding: 10px 10px 10px 40px;
 }
 
-
-/*.opciones{
-    margin-top: 5px;
-    display: flex;
-    align-items: center;
-    margin-inline-end: auto;
+#carouselExample{
+    margin-bottom: 50px;
 }
-*/
+
+.card-body{
+    text-align: center; 
+}
+.card-footer{
+    text-align: center;
+}
+
+.card-text{
+    padding: 10px 5px 10px 5px;
+}
 
 .pie-pagina{
 width: 100%;

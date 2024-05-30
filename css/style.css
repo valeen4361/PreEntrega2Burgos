@@ -8,11 +8,12 @@
     font-weight: weight;
     font-style: normal;
     color: #4f3222;
+ 
 }
 
 body{
     background-color:cornsilk;
-}
+
 
 h1{
     text-align: center;
@@ -63,12 +64,15 @@ li{
     margin-top: 25px;
 }
 
-#botonmenu{
+#botonmenu1{
     width: 30%;
     background-color: #4f3222;
     color: aliceblue;
     margin-top: 50px;
+}
 
+.btnEnlace{
+    text-decoration: none;
 }
 
 .formulario{
@@ -145,3 +149,5 @@ background-color: antiquewhite;
     padding: 15px 10px;
     text-align: center;
 }
+
+} 

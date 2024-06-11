@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -19,16 +21,43 @@
 
 }
 
+.Banner{
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8),(rgba(0, 0, 0, 0.1))), url(/img/cafe-shop.jpg) ;
+    background-size:cover;
+    background-position: center;
+
+    .textoBanner{
+        color:#D3CFC0;
+    }
+  
+}
+
 body{
     background-color:cornsilk;
 
     h1{
         text-align: center;
     padding: 10px 0px 30px 0px;
+    font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+    }
+
+    .texto-menu{
+        margin-top: 30px;
+        text-align: center;
     }
     h2{
         text-align: center;
     padding: 30px 0px 50px 0px;
+    font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
 
     p{
     font-family: "Outfit", sans-serif;

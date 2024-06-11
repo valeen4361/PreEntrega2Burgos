@@ -1,0 +1,19 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeen4361/PreEntrega2Burgos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeen4361/PreEntrega2Burgos/issues"
+  },
+  "homepage": "https://github.com/valeen4361/PreEntrega2Burgos#readme"
+}

@@ -1,164 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-flex;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    color: #4f3222;
- 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-flex;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #4f3222;
 }
 
-body{
-    background-color:cornsilk;
-
-
-h1{
-    text-align: center;
-    padding: 30px 0px 30px 0px;
+.header {
+  align-items: center;
+}
+.header .logo img {
+  height: 110px;
+  width: auto;
+  padding: 10px 50px 10px 20px;
 }
 
-h2{
-    text-align: center;
-    padding: 30px 0px 50px 0px;
+body {
+  background-color: cornsilk;
+}
+body h1 {
+  text-align: center;
+  padding: 10px 0px 30px 0px;
+}
+body h2 {
+  text-align: center;
+  padding: 30px 0px 50px 0px;
+}
+body h2 p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #4f3222;
+}
+body h5 {
+  text-align: center;
+}
+body #user {
+  text-align: center;
+}
+body .card-body {
+  text-align: center;
+}
+body .card-footer {
+  text-align: center;
 }
 
-h3{
-    text-align: center;
-    padding: 30px 0px 50px 0px;
-
+li {
+  list-style-type: none;
+  margin-left: 20px;
 }
 
-.header{
-    align-items: center;
-
-
+#botonmenu1 {
+  width: 30%;
+  background-color: #4f3222;
+  color: aliceblue;
+  margin-top: 50px;
+  list-style-type: none;
 }
 
-li{
-    list-style-type: none;
+.pie-pagina {
+  width: 100%;
+  background-color: antiquewhite;
+  margin-top: 35px;
+}
+.pie-pagina .grupo1 {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /*permite que agregue 5 columna en todo el ancho*/
+  grid-gap: 1px;
+  padding: 45px 0px 0px 0px;
+}
+.pie-pagina .grupo1 .box figure {
+  width: 90px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo1 .box figure img {
+  width: 100px;
+  margin-left: 50px;
+}
+.pie-pagina .grupo1 .maps {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+.pie-pagina .grupo2 {
+  padding: 15px 10px;
+  text-align: center;
 }
 
-.header .logo img{
-    height: 110px;
-    width: auto;
-    padding: 10px 50px 10px 20px;
-
-}
-
-.historia{
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
-
-.BannerCafeNosotros{
-    justify-content: center;
-    padding: 0px 0px 0px 105px;
-    
-}
-
-.text-contact{
-    text-align: center;
-    margin-top: 25px;
-}
-
-#botonmenu1{
-    width: 30%;
-    background-color: #4f3222;
-    color: aliceblue;
-    margin-top: 50px;
-}
-
-#botonmenu2{
-    width: 30%;
-    background-color: #4f3222;
-    color: aliceblue;
-    margin-top: 15px;
-}
-
-.btnEnlace{
-    text-decoration: none;
-}
-
-.formulario{
-    margin-top: 55px;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedorCard{
-    margin-bottom: 50px;
-}
-
-.selec-menu{
-    margin: auto;
-    padding: 10px 10px 10px 40px;
-}
-
-#carouselExample{
-    margin-bottom: 50px;
-}
-
-.card-body{
-    text-align: center; 
-}
-.card-footer{
-    text-align: center;
-}
-
-.card-text{
-    padding: 10px 5px 10px 5px;
-}
-
-.pie-pagina{
-width: 100%;
-background-color: antiquewhite;
-}
-
-.pie-pagina .grupo1{
-    width: 100%;
-    max-width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5,1fr); /*permite que agregue 5 columna en todo el ancho*/
-    grid-gap: 1px;/**/
-    padding: 45px 0px;
-}
-
-.pie-pagina .grupo1 .box figure{
-    width: 90px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pie-pagina .grupo1 .box figure img{
-    width: 100px;
-    margin-left: 50px;
-}
-
-.terminos{
-    margin-left: 45px;
-}
-
-.rrss2{
-    margin-left: 20px;
-}
-
-.trabajaus{
-    margin-left: 20px;
-}
-
-.maps{
-    margin-right: 0;
-}
-
-.grupo2{
-    padding: 15px 10px;
-    text-align: center;
-}
-
-} 
+/*# sourceMappingURL=style.css.map */

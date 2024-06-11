@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-flex;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #4f3222;
+}
+
+.header{
+    align-items: center;
+    .logo img{
+        height: 110px;
+    width: auto;
+    padding: 10px 50px 10px 20px;
+    }
+
+}
+
+body{
+    background-color:cornsilk;
+
+    h1{
+        text-align: center;
+    padding: 10px 0px 30px 0px;
+    }
+    h2{
+        text-align: center;
+    padding: 30px 0px 50px 0px;
+
+    p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #4f3222;
+    }
+    }
+
+    h5{
+        text-align: center;
+    }
+
+    #user{
+        text-align: center; 
+    }
+
+    .card-body{
+        text-align: center; 
+    }
+    .card-footer{
+        text-align: center;
+    }
+}
+
+li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#botonmenu1{
+    width: 30%;
+    background-color: #4f3222;
+    color: aliceblue;
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+.pie-pagina{
+width: 100%;
+background-color: antiquewhite;
+margin-top: 35px;
+
+.grupo1{
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr); /*permite que agregue 5 columna en todo el ancho*/
+    grid-gap: 1px;
+    padding: 45px 0px 0px 0px;
+
+    .box figure{
+    width: 90px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+    width: 100px;
+    margin-left: 50px;
+
+    }
+
+    }
+    .maps{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+}
+.grupo2{
+    padding: 15px 10px;
+    text-align: center;
+}
+}
+

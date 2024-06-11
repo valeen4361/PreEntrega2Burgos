@@ -29,22 +29,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html"><p>Inicio</p></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./portafolio/menu.html">Menú</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="./portafolio/nosotros.html">Nosotros</a>
+                            <a class="nav-link active" aria-current="page" href="./portafolio/menu.html"><p>Menú</p></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page"
-                                href="./portafolio/servicios.html">Servicios</a>
+                                href="./portafolio/nosotros.html"><p>Nosotros</p></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page"
-                                href="./portafolio/contacto.html">Contacto</a>
+                                href="./portafolio/servicios.html"><p>Servicios</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./portafolio/contacto.html"><p>Contacto</p></a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -57,8 +57,15 @@
 
     </header>
 
-    <video class="video" autoplay loop height="853px" width="auto" src="./img/bienvenid-alaga.mp4">Tu nav no soporta mp4
-    </video>
+    <div class="video1">
+        <video autoplay loop height="853px" width="auto" src="./img/bienvenid-alaga.mp4" type="video.mp4" >
+        </video>
+        <div class="aclarar"></div>
+        <div class="content">
+            <h1></h1>
+        </div>
+        
+    </div>
 
     <div class="container">
         <main>
@@ -99,27 +106,78 @@
                 </div>
 
                 <a class="btnEnlace" href="./portafolio/menu.html">
-                <button class="btn mx-auto d-block" id="botonmenu1" type="button">Ver más del menú</button></a>
+                    <button class="btn mx-auto d-block" id="botonmenu1" type="button">Ver más del menú</button></a>
 
             </section>
 
             <br>
             <article>
                 <div class="contenedorTestimonio">
-                <h2>Testimonios</h2>
+                    <h2>Testimonios</h2>
 
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                        <div class="col">
-                            <div class="carousel-item active">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="col">
+                                <div class="carousel-item active">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <i class="fa-solid fa-user" id="user"></i>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Nombre</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as
+                                                    a
+                                                    natural
+                                                    lead-in to additional content. This content is a little bit longer.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
                                 <div class="col">
                                     <div class="card h-100">
-                                        <i class="fa-solid fa-user"></i>
+                                        <i class="fa-solid fa-user" id="user"></i>
                                         <div class="card-body">
                                             <h5 class="card-title">Nombre</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural
-                                                lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Officia sit dolore aperiam culpa itaque harum, est commodi dicta.
+                                                Dolorem
+                                                excepturi impedit sequi enim inventore placeat, cupiditate et harum at
+                                                numquam aliquam voluptas magnam dolore vel veritatis rerum nihil,
+                                                voluptates
+                                                fuga sit atque deleniti! Aliquam amet deserunt, totam ea repellendus
+                                                quidem?
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <i class="fa-solid fa-user" id="user"></i>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nombre</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.
+                                                Eos necessitatibus suscipit aperiam debitis dolore, voluptas, officiis
+                                                voluptatem reiciendis et sed unde impedit soluta incidunt placeat.</p>
                                         </div>
                                         <div class="card-footer">
                                             <i class="fa-solid fa-star"></i>
@@ -132,66 +190,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="col">
-                                <div class="card h-100">
-                                    <i class="fa-solid fa-user"></i>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Nombre</h5>
-                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Officia sit dolore aperiam culpa itaque harum, est commodi dicta. Dolorem
-                                            excepturi impedit sequi enim inventore placeat, cupiditate et harum at
-                                            numquam aliquam voluptas magnam dolore vel veritatis rerum nihil, voluptates
-                                            fuga sit atque deleniti! Aliquam amet deserunt, totam ea repellendus quidem?
-                                        </p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star-half-stroke"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col">
-                                <div class="card h-100">
-                                    <i class="fa-solid fa-user"></i>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Nombre</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Eos necessitatibus suscipit aperiam debitis dolore, voluptas, officiis
-                                            voluptatem reiciendis et sed unde impedit soluta incidunt placeat.</p>
-                                    </div>
-                                    <div class="card-footer">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Siguiente</span>
-                    </button>
                 </div>
-            </div>
             </article>
         </main>
     </div>
-
+    
     <footer class="pie-pagina">
         <div class="grupo1">
             <div class="box">
@@ -204,9 +218,9 @@
             <div class="box">
                 <h5>Terminos y condiciones</h5>
                 <div class="terminos">
-                    <li> <a href="#">enlace</a></li>
-                    <li> <a href="#">enlace</a></li>
-                    <li> <a href="#">enlace</a></li>
+                    <li> <a href="#">Politica y Privacidad</a></li>
+                    <li> <a href="#">Politica de Devolución</a></li>
+                    <li> <a href="#">Terminos y Condiciones</a></li>
                 </div>
             </div>
 
@@ -234,7 +248,7 @@
                 <div class="maps">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26641.08220526148!2d-70.60467816215244!3d-33.41971739767322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cec02ea4cebf%3A0x29dd711ed6294ee3!2sInacap%20Apoquindo!5e0!3m2!1ses!2scl!4v1715096446643!5m2!1ses!2scl"
-                        width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>

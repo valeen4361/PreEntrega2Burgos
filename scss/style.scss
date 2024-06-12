@@ -156,18 +156,40 @@ margin-top: 35px;
     display: grid;
     grid-template-columns: repeat(5,1fr); /*permite que agregue 5 columna en todo el ancho*/
     grid-gap: 1px;
-    padding: 45px 0px 0px 0px;
+    padding: 30px;
+
+    .box{
+        margin-right: 60px;
+        .box2{
+            margin-left: 30px;
+        }
+    }
+
+    .box2{
+        margin-left: 30px;
+    }
+
+    .boxrrss{
+        margin-left: 70px;
+    }
+
+    .boxtrab{
+        margin-left: 20px;
+    }
 
     .box figure{
-    width: 90px;
+    width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     img{
-    width: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 55px;
     margin-left: 50px;
+    justify-content: center;
 
     }
 
@@ -179,7 +201,7 @@ margin-top: 35px;
 
 }
 .grupo2{
-    padding: 15px 10px;
+    padding: 10px;
     text-align: center;
 }
 }

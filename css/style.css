@@ -143,25 +143,43 @@ a {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /*permite que agregue 5 columna en todo el ancho*/
   grid-gap: 1px;
-  padding: 45px 0px 0px 0px;
+  padding: 30px;
+}
+.pie-pagina .grupo1 .box {
+  margin-right: 60px;
+}
+.pie-pagina .grupo1 .box .box2 {
+  margin-left: 30px;
+}
+.pie-pagina .grupo1 .box2 {
+  margin-left: 30px;
+}
+.pie-pagina .grupo1 .boxrrss {
+  margin-left: 70px;
+}
+.pie-pagina .grupo1 .boxtrab {
+  margin-left: 20px;
 }
 .pie-pagina .grupo1 .box figure {
-  width: 90px;
+  width: 100px;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .pie-pagina .grupo1 .box figure img {
-  width: 100px;
+  width: 150px;
+  height: 150px;
+  margin-top: 55px;
   margin-left: 50px;
+  justify-content: center;
 }
 .pie-pagina .grupo1 .maps {
   margin-right: 0;
   margin-bottom: 20px;
 }
 .pie-pagina .grupo2 {
-  padding: 15px 10px;
+  padding: 10px;
   text-align: center;
 }
 

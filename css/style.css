@@ -101,6 +101,10 @@ a {
   list-style-type: none;
 }
 
+#bodycard {
+  background: #FFF4E7;
+}
+
 #botonmenu1 {
   width: 30%;
   background-color: #4f3222;
